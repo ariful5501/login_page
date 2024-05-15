@@ -34,7 +34,7 @@
                         <button class="w-full bg-red-500 text-white py-2  rounded-md hover:bg-red-600">Log in with Google</button>
                     </div>
                     <div class="text-center pt-3">
-                        <a href="#" class="text-yellow-400 hover:underline  ">Forgot password?</a>
+                        <a href="#"  target="_blank" class="text-yellow-400 hover:underline  ">Forgot password?</a>
                     </div>
                     <div class="block text-white text-center pt-2">
                         Don't have an Account?
