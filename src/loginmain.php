@@ -12,7 +12,7 @@
             <div class="min-h-screen flex items-center justify-center">
                 <div class="bg-gray-500 p-8 rounded shadow-md w-96">
                     <h2 class="text-2xl font-semibold mb-4 text-white">Log in</h2>
-                    <form action="login.php" method="POST">
+                    <form action="./loginHandler.php" method="POST">
                         <div class="mb-4">
                             <span for="email" class="block text-white">Email</span>
                             <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-400" placeholder="Enter Your Email Address" required>
