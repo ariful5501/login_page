@@ -1,5 +1,5 @@
 <?php
-require_once "db_Connection";
+require_once "db_Connection.php";
 
 // $username = $_POST["username"];
 $email = $_POST["email"];
@@ -36,7 +36,7 @@ if (!empty($email) && !empty($pass)) {
         // echo "Invalid email or password.";
         echo "<script type='text/javascript'>
             alert('Invalid email or password, try again');
-            window.location.href = 'login.php';
+            window.location.href = 'loginmain.php';
           </script>";
     }
 
